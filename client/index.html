@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
+
+
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <script defer src="./scripts/index.js"></script>
+
+  <link rel="shortcut icon" href="./assets/logo.png" />
+  <title>Wallet</title>
+</head>
+
+<body>
+  <div class="wallet">
+    <table>
+      <thead>
+        <tr id="header-row">
+          <th class="wallet-table-heads">Валюта</th>
+          <th class="wallet-table-heads">Количество</th>
+          <th class="wallet-table-heads">Цена в рублях</th>
+        </tr>
+      </thead>
+      <tbody id="currency-table-body">
+      </tbody>
+    </table>
+  </div>
+
+  <div class="exchange">
+    <h2>Биржа</h2>
+    <form id="exchange-form">
+      <label for="amount">Количество:</label>
+      <input type="number" id="amount" required> <br />
+      <div class="space"></div>
+
+      <label for="currency">Валюта:</label>
+      <select id="currency" required>
+      </select> <br />
+      <div class="space"></div>
+
+      <label for="type">Тип сделки:</label>
+      <select id="type" required>
+        <option value="buy">Купить</option>
+        <option value="sell">Продать</option>
+      </select> <br />
+      <div class="space"></div>
+
+      <button type="submit">Совершить сделку</button>
+    </form>
+    <div id="error-message-container"><span id="message-value"></span></div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+.wallet {
+    background-color: brown;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    width: 300px;
+    height: 220px;
+}
+
+.exchange {
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 220px;
+}
+
+.space {
+    height: 10px;
+}
+
+#message-value {
+    color: red;
+    text-decoration: solid;
+}

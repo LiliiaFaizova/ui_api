@@ -1,0 +1,37 @@
+[
+    {
+        "id": "rub",
+        "name": "рубль",
+        "count": 300000,
+        "price": 1,
+        "symbol": "₽"
+    },
+    {
+        "id": "eur",
+        "name": "евро",
+        "count": 100,
+        "secId": "EUR_RUB__TOM",
+        "symbol": "€"
+    },
+    {
+        "id": "usd",
+        "name": "доллар",
+        "count": 2000,
+        "secId": "USD000UTSTOM",
+        "symbol": "$"
+    },
+    {
+        "id": "amd",
+        "name": "драм",
+        "count": 500,
+        "secId": "AMDRUB_TOM",
+        "symbol": "֏"
+    },
+    {
+        "id": "cny",
+        "name": "юань",
+        "count": 13000,
+        "secId": "CNYRUB_TOM",
+        "symbol": "¥"
+    }
+]
