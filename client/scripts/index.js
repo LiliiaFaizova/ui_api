@@ -27,6 +27,8 @@ async function sendTransaction(transaction) {
 
 // update wallet every 3 sec 
 setInterval(updateWallet, 3000);
+// show already loaded data
+updateWallet();
 
 // render currencies
 fetch(API_URL)
